@@ -1,0 +1,21 @@
+DUE 8/22 by 11:11am
+
+1. Copy from DropBox the code for "Whack A Dot" Game
+2. Add a score text field and show the current score
+3. Add a penalty for missing a click
+4. Modify the "winning" black flash to a different color
+*. (Extra Credit 1) Make a box
+	- Create a new Sprite class, "Box" and have it be a growing square
+	- Must scale around center not from a corner!
+	- Randomly show a square or dot each turn for the player.
+**. (Extra Credit 2) Draw a simple background scene with vector shapes
+	- Can be anything
+	- minimum 4, maximum unlimited
+5. Write an e-mail with analysis of project (2+ paragraphs) 
+	- Save in readme.txt in same directory as project .asproj file
+	- Don't fill it with crap or fluff!
+	- What did you find most satisfying?
+	- What did you find least satisfying?
+	- What did you learn?
+	- What did you fail at?		
+6. Be sure e-mail also includes link to your GitHUB repository
