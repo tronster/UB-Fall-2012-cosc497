@@ -1,0 +1,24 @@
+#
+# Ignore
+#
+
+*.com
+*.dll
+*.o
+*.so
+*.suo
+*.temp
+*.idb
+*.pdb
+*.idb
+*.listbuildstate
+*.ipch
+*.SCC
+*.cachefile
+
+obj/
+tmp/
+
+
+.DS_Store
+Thumbs.db
