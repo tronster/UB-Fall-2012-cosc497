@@ -1,0 +1,31 @@
+PROJECT 2:
+DUE 8/29 by 11:11am (before next class)
+
+1. Modify "Loop Update GAME"
+
+2. Create (or grab from else-where) a "Resource.as" which holds the following resources
+	- x4 blue enemy bitmaps (same enemy facing different directions)
+	- x4 red enemy bitmaps "
+	- x4 blue player bitmaps "
+	- x4 red player bitmaps "
+
+3. Instead of drawing a color, have each enemy use a bitmap
+	- Have the bitmap represent the proper color of the enemy
+	- Have the bitmap represent the direction that enemy is moving in
+
+4. Do the same thing with the player
+	- The player's bitmap will need to change when direction changes
+	- The player's bitmap will need to change when the color changes
+
+5. Be sure to write and include standard readme.txt (as outlined in project #1)
+
+6. When completed upload code to GitHub
+	- e-mail me the link to GitHUB
+
+
+HINTS:
+i. "Graphics" or "graphics" should not be anywhere in the final code code
+
+ii. For the Enemy, store a single Bitmap reference; modify x & y in update() 
+
+iii. Make sure your bitmap sizes are twice the halfWidth and halfHeight in the Enemy and Player classes or collision will be wacky
