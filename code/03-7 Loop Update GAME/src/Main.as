@@ -123,7 +123,7 @@ package
 			Display.game.addChild( tf );
 			tf.y = Display.height * 0.33;
 			
-			removeEventListener( Event.ENTER_FRAME, onFrame );
+			removeEventListener( Event.ENTER_FRAME, update );
 		}
 		
 	}
