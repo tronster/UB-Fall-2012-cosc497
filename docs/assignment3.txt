@@ -1,0 +1,39 @@
+PROJECT 3:
+DUE 10/06 by 11:11am (before next class)
+1. Create an "Input" sub-system to be utilize in your game engine
+2. You may use, as a start, any code that has been shared in class
+3. Your system must support for mouse buttons and keyboard functions:
+	- a key/button initially pressed
+	- a key/button held past the first frame
+	- a key/button release
+	- a key/button double pressed
+4. Make a sample application which demonstrates all the features of above; think of this as what you'd distribute with your engine as a sample for other programmers.
+*. BONUS: support "tap", a one frame press / release
+**. BONUS: support right-click
+
+
+REQUIRED READING:
+Elastic Racetrack
+http://www.craftymind.com/2008/04/18/updated-elastic-racetrack-for-flash-9-and-avm2/
+
+On Game Schools
+http://penny-arcade.com/patv/episode/on-game-schools
+	
+GitIgnore files
+https://help.github.com/articles/ignoring-files
+		
+
+
+ADDITIONAL READING:
+"2D Array Alternatives"
+http://jacksondunstan.com/articles/1473
+	
+operator ===
+http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/operators.html#strict_equality	
+
+"AS3: Dictionary Object"
+http://gskinner.com/blog/archives/2006/07/as3_dictionary_.html
+
+"State Diagram"
+http://en.wikipedia.org/wiki/State_diagram
+- Note: Wiki entry on "State Machines" filled with fluff;
