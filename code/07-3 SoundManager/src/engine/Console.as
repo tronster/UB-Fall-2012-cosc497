@@ -2,6 +2,7 @@ package engine
 {
 	import flash.text.TextField;
 	import flash.text.TextLineMetrics;
+	import flash.ui.Keyboard;
 	
 	
 	/// Display output to the string
@@ -64,7 +65,7 @@ package engine
 			for ( var i:int = 0; i < MAX; i++ )
 			{
 				tf = systf();
-				fields[i] = tf;
+				fields.push( tf );			
 				Display.console.addChild( tf );
 				tf.y = 18 * i;
 			}
@@ -79,6 +80,12 @@ package engine
 			realize();
 		}
 		
+		public function update():void
+		{
+			/// If a key down is pressed, toggle the visiblity of the console
+			if ( Input.getKeyDown( Keyboard.BACKSLASH ) )
+				Display.console.visible = !Display.console.visible;
+		}
 		
 	}
 

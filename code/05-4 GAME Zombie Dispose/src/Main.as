@@ -48,6 +48,8 @@ package
 			Time.update();
 			Input.update();
 			State.update();
+			
+			Systems.console.add( String(Time.frameCount) );
 		}
 		
 	}
