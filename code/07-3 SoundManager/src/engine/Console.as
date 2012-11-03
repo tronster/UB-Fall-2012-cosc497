@@ -57,7 +57,7 @@ package engine
 		public function clear():void
 		{
 			// Allocate memory
-			fields = new Vector.<TextField>( MAX );
+			fields = new Vector.<TextField>( );
 			history = new Vector.<String>();
 			
 			// Create default text fields
